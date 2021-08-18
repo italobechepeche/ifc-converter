@@ -19,7 +19,7 @@ It already bundles the ifcConvert binaries at version 0.6.0 for linux, windows a
 └───────┴───────────────┴───────────────────────────────────────────┴
 ```
 
-[IfcOpenshell IfcConvert page](http://ifcopenshell.org/ifcconvert)
+[IfcOpenShell IfcConvert page](http://ifcopenshell.org/ifcconvert)
 
 # Usage
 

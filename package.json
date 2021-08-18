@@ -22,7 +22,7 @@
     "xml",
     "svg"
   ],
-  "author": "Ítalo Lima",
+  "author": "Ítalo Bechepeche",
   "license": "LGPL",
   "devDependencies": {
     "chai": "^4.3.4",
