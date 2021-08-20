@@ -1,9 +1,9 @@
 "use strict";
 
 const path = require("path"),
-    execFile = require("child_process").execFile,
     fs = require('fs'),
-    os = require('os');
+    os = require('os'),
+    execFile = require("child_process").execFile;
 
 const extractError = (output) => {
     return output.split('\n')
