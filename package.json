@@ -1,6 +1,6 @@
 {
   "name": "ifc-converter",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "ifc converter package with embedded x64 binaries for windows, linux and macOS",
   "main": "index.js",
   "repository": {
