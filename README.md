@@ -24,10 +24,26 @@ It already bundles the ifcConvert binaries at version 0.6.0 for linux, windows a
 
 # Usage
 
+## Javascript
+
 ```javascript
 const ifcConvert = require('ifc-convert');
 
 ifcConvert('source.ifc', 'dest.glb')
+    .then(function() {
+        // the file is converted to glb
+    }).catch((error) => {
+        // instance of a Error containing the 
+        // message extracted from ifcConvert binary
+    });
+```
+
+## Typescript
+
+```typescript
+import * as IfcConverter from 'ifc-converter';
+
+IfcConverter('source.ifc', 'dest.glb')
     .then(function() {
         // the file is converted to glb
     }).catch((error) => {
